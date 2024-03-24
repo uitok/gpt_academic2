@@ -100,7 +100,7 @@ TIMEOUT_SECONDS = 30
 
 
 # 网页的端口, -1代表随机端口
-WEB_PORT = 17521
+WEB_PORT = 8080
 
 
 # 如果OpenAI不响应（网络卡顿、代理失败、KEY失效），重试的次数限制
@@ -154,7 +154,7 @@ ADD_WAIFU = False
 
 # 设置用户名和密码（不需要修改）（相关功能不稳定，与gradio版本和网络都相关，如果本地使用不建议加这个）
 # [("username", "password"), ("username2", "password2"), ...]
-AUTHENTICATION = []
+AUTHENTICATION = [("admin", "147258369")]
 
 
 # 如果需要在二级路径下运行（常规情况下，不要修改!!）（需要配合修改main.py才能生效!）
